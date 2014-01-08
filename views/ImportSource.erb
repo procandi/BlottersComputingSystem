@@ -1,0 +1,58 @@
+﻿<html>
+	<head>
+		<meta http-equiv="Content-Type" width="1280" height="1024" border="0" content="text/html; charset=utf-8"> 
+		<style type="text/css"> 
+			h1 {color:white; background-color:blue;} 
+			h3 {color:red;}
+			b {color:white;} 
+			p {color:white;} 
+		</style>
+	
+		<!-- 載入日歷的function -->
+		<script type="text/javascript" src="JSCal2-1.8/src/js/jscal2.js"></script>
+		<script type="text/javascript" src="JSCal2-1.8/src/js/lang/cn.js"></script>
+		<link rel="stylesheet" type="text/css" href="JSCal2-1.8/src/css/jscal2.css" />
+		<link rel="stylesheet" type="text/css" href="JSCal2-1.8/src/css/border-radius.css" />
+		<link rel="stylesheet" type="text/css" href="JSCal2-1.8/src/css/steel/steel.css" />
+	</head>
+	
+	</head>
+	
+	<body background='images/bk.jpg'>
+		<div>
+		<h1>實際成本計算系統</h1>
+		<h3>匯入日記帳頁面</h3>
+		<p>因單本日記帳資料都非常龐大，按下上傳後請稍待五至十五分鐘不等時間，請勿對此視窗做其它動作，避免造成資料短缺</p>
+		
+		<table border=1 align="center"><tr><td>
+			<form action="/ImportSource" method="post" accept-charset="utf-8" enctype="multipart/form-data">
+				<b>請選擇要上傳的日記帳： </b><input type="file" id="file" name="file" /><br />
+				<input type="submit" value="上傳"><br />
+			</form>
+			<%= '上傳完成' if @uploadok==1 %>
+			<%= '上傳發生錯誤' if @uploadok==-1 %>
+			
+			<form action="/" method="get" accept-charset="utf-8">		
+				<input type="submit" value="前往報表輸出頁面">
+			</form>
+		</td></tr></table>
+		</div>
+		
+		<div id="footer" align="right">
+			<p><b>實際成本計算系統. version 2014.01.06</b></p>
+		</div>
+	</body>
+	
+	
+	<script type="text/javascript">
+	    //日曆的程式，指定要觸發事件的物件及目標寫入物件、格式
+	    var cal = Calendar.setup({
+	      onSelect: function(cal) { 
+	        cal.hide() 
+	      },
+	      showTime: true
+	    });
+	    cal.manageFields("begindate_image", "begindate", "%Y/%m/%d");
+	    cal.manageFields("enddate_image", "enddate", "%Y/%m/%d");
+	</script>
+</html>

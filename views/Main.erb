@@ -1,0 +1,64 @@
+﻿<html>
+	<head>
+		<meta http-equiv="Content-Type" width="1280" height="1024" border="0" content="text/html; charset=utf-8"> 
+		<style type="text/css"> 
+			h1 {color:white; background-color:blue;} 
+			h3 {color:red;}
+			b {color:white;} 
+			p {color:white;} 
+		</style>
+	
+		<!-- 載入日歷的function -->
+		<script type="text/javascript" src="JSCal2-1.8/src/js/jscal2.js"></script>
+		<script type="text/javascript" src="JSCal2-1.8/src/js/lang/cn.js"></script>
+		<link rel="stylesheet" type="text/css" href="JSCal2-1.8/src/css/jscal2.css" />
+		<link rel="stylesheet" type="text/css" href="JSCal2-1.8/src/css/border-radius.css" />
+		<link rel="stylesheet" type="text/css" href="JSCal2-1.8/src/css/steel/steel.css" />
+	</head>
+	
+	</head>
+	
+	<body background='images/bk.jpg'>
+		<div>
+		<h1>實際成本計算系統</h1>
+		<h3>報表輸出頁面</h3>
+		
+		<table border=1 align="center"><tr><td>
+			<form action="/SearchData" method="post" accept-charset="utf-8">
+				<b>科目編號: </b><input type="text" name="searchcode" value="<%= params[:searchcode] %>"/><br />
+				<b>起始日期: </b><input type="text" id="begindate" name="begindate" value="<%= params[:begindate] %>" />
+				<button type="button" id="begindate_image" name="begindate_image"><img src="images/icon_date.jpg"></button><br />
+				
+				<b>終止日期: </b><input type="text" id="enddate" name="enddate" value="<%= params[:enddate] %>" />
+				<button type="button" id="enddate_image" name="enddate_image"><img src="images/icon_date.jpg"></button><br />
+				
+				<input type="submit" value="檢索"><br />
+			</form>
+			
+			<form action="/ImportSource" method="get" accept-charset="utf-8">		
+				<input type="submit" value="前往匯入日記帳頁面">
+			</form>		
+			<a href='Result.xls'>下載畫面結果</a>
+			
+			<%= @result if @result!=nil %>
+		</td></tr></table>
+		</div>
+		
+		<div id="footer" align="right">
+			<p><b>實際成本計算系統. version 2014.01.06</b></p>
+		</div>
+	</body>
+	
+	
+	<script type="text/javascript">
+	    //日曆的程式，指定要觸發事件的物件及目標寫入物件、格式
+	    var cal = Calendar.setup({
+	      onSelect: function(cal) { 
+	        cal.hide() 
+	      },
+	      showTime: true
+	    });
+	    cal.manageFields("begindate_image", "begindate", "%Y/%m/%d");
+	    cal.manageFields("enddate_image", "enddate", "%Y/%m/%d");
+	</script>
+</html>
