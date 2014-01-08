@@ -73,6 +73,7 @@ class Main < Sinatra::Base
     
     #export to excel
     f=File.new("public/Result.xls", "w:utf-8")
+    f.write("\uFEFF") #add BOM
     f.write("科目名稱,傳票編號,摘要,借,貸\n")
     f.write(resultdata)
     f.write("\n\n科目名稱,總計\n")

@@ -1,0 +1,2 @@
+# Logfile created on 2014-01-08 21:48:20 +0800 by logger.rb/31641
+I, [2014-01-08T21:48:20.068007 #8172]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
