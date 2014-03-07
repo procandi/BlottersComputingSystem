@@ -1,0 +1,32 @@
+# Logfile created on 2014-01-20 19:47:31 +0800 by logger.rb/31641
+I, [2014-01-20T19:47:31.001855 #6264]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-01-20T20:34:07.010238 #6508]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-01-20T20:35:41.202626 #1248]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-01-20T20:38:01.716663 #2668]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-01-20T20:41:48.802651 #6828]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-01-20T20:43:39.751997 #6828]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-01-20T20:45:56.823837 #2904]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-01-20T20:46:42.319440 #5052]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-01-20T20:51:18.727249 #7084]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-01-20T20:53:43.508530 #7148]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-01-20T20:55:01.255977 #3228]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-01-20T20:55:15.991820 #3228]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-01-20T20:58:58.200530 #3404]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-01-20T21:00:31.067841 #5084]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-01-20T21:02:17.793946 #3600]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-01-20T21:03:03.874581 #720]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-01-20T21:05:48.843017 #6704]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-01-20T21:07:40.876425 #1524]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-01-20T21:11:55.363981 #6632]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-01-20T21:13:27.664260 #5352]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-01-20T21:14:36.807215 #6872]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-01-20T21:15:17.893565 #3048]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-01-20T21:15:57.098807 #2912]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-01-20T21:17:20.412573 #5516]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-01-20T21:18:23.514182 #2252]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-01-20T21:20:05.681025 #6112]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-01-20T21:23:13.072744 #2308]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-01-20T21:26:22.926603 #2308]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-01-20T21:27:25.093158 #2308]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and DT>=20140103 and DT<=20140104  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-01-20T21:27:53.978810 #2308]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and DT>=20140103 and DT<=20140104  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-01-20T21:28:06.864547 #2308]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar

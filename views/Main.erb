@@ -26,6 +26,7 @@
 		<table border=1 align="center"><tr><td>
 			<form action="/SearchData" method="post" accept-charset="utf-8">
 				<b>科目編號: </b><input type="text" name="searchcode" value="<%= params[:searchcode] %>"/><br />
+				<b>摘要代碼: </b><input type="text" name="searchname" value="<%= params[:searchname] %>"/><br />
 				<b>起始日期: </b><input type="text" id="begindate" name="begindate" value="<%= params[:begindate] %>" />
 				<button type="button" id="begindate_image" name="begindate_image"><img src="images/icon_date.jpg"></button><br />
 				
@@ -38,7 +39,9 @@
 			<form action="/ImportSource" method="get" accept-charset="utf-8">		
 				<input type="submit" value="前往匯入日記帳頁面">
 			</form>		
-			<a href='Result.xls'>下載畫面結果</a>
+			<a href='Result_UTF8.xls'>1.下載畫面結果(需讀取含BOM的Excel版本)</a><br>
+			<a href='Result_BIG5.xls'>2.下載畫面結果(僅支援BIG5碼的Excel版本)</a><br>
+			<a href='Result_New.xls'>3.下載畫面結果(新制相容性較佳的格式)</a><br>
 			
 			<%= @result if @result!=nil %>
 		</td></tr></table>
