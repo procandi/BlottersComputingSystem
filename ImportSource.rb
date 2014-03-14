@@ -33,7 +33,7 @@ class ImportSource < Sinatra::Base
         FileUtils.cp("db/BlottersComputingSystem","db/BlottersComputingSystem_#{DateTime.now.strftime('%Y%m%d%H%M%S')}")
         
         #Init DB variant
-        database = SQLite3::Database.new("db/BlottersComputingSystem")
+        database = SQLite3::Database.new("db/BlottersComputingSystem")        
         
         #Read Excel
         flag=false     
@@ -56,7 +56,7 @@ class ImportSource < Sinatra::Base
                 @dtd=@keynumber[5..6].to_i()
                 @dtm=@keynumber[3..4].to_i()
                 @dty=@keynumber[0..2].to_i()+1911
-                @dtd=@dty.to_s()+@dtm.to_s()+@dtd.to_s()
+                @dt=@dty.to_s()+@dtm.to_s()+@dtd.to_s()
               end
               @itemcode=row[1].to_s()
               @itemtype=row[2].to_s().gsub(/\'/m,'\'\'')
@@ -96,7 +96,7 @@ class ImportSource < Sinatra::Base
       #Output Module
       erb :ImportSource
     rescue => e
-      @uploadok=1
+      @uploadok=-1
       database.close if database!=nil
       
       '上傳發生錯誤'

@@ -1,0 +1,37 @@
+# Logfile created on Fri Feb 21 11:58:20 +0800 2014 by logger.rb/1.2.6
+I, [2014-02-21T11:58:20.734201 #3552]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and ItemName='T9075'  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T12:00:01.112942 #5860]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and ItemName like '%T9075%'  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T12:00:16.121801 #5860]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T12:02:27.205298 #5860]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and DT>=20100201 and DT<=20100228  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T12:02:42.695184 #5860]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and DT>=20100201 and DT<=20100228  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T12:04:27.815197 #3516]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and DT>=20100201 and DT<=20100228  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T12:04:27.902202 #3516]  INFO -- : 1
+I, [2014-02-21T12:04:27.925203 #3516]  INFO -- : 1
+I, [2014-02-21T12:05:01.942149 #3348]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and DT>=20100201 and DT<=20100228  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T12:05:02.056155 #3348]  INFO -- : 1
+I, [2014-02-21T12:06:08.939981 #3776]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and DT>=20100201 and DT<=20100228  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T12:06:42.109878 #3912]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and DT>=20100201 and DT<=20100228  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T12:06:55.795661 #3912]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T16:15:14.709004 #4748]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and ItemName like '%T9075%'  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T16:42:09.110343 #4312]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and ItemName like '%T10001%' and DT>=20100101 and DT<=20100131  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T16:45:59.338511 #4312]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and ItemName like '%T10001%' and DT>=20100101 and DT<=20100131  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T16:46:14.176360 #6444]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and ItemName like '%T10001%' and DT>=20100101 and DT<=20100131  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T16:51:12.434419 #6928]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and ItemName like '%T10001%' and DT>=20100101 and DT<=20100131  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T16:52:11.153778 #3544]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and ItemName like '%T10001%' and DT>=20100101 and DT<=20100131  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T16:54:29.987718 #6176]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and ItemName like '%T10001%' and DT>=20100101 and DT<=20100131  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T16:56:08.186335 #6924]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and ItemName like '%T10001%' and DT>=20100101 and DT<=20100131  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T16:58:14.223544 #2692]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and ItemName like '%T10001%' and DT>=20100101 and DT<=20100131  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T16:58:45.612339 #3336]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and ItemName like '%T10001%' and DT>=20100101 and DT<=20100131  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T16:58:48.154485 #3336]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and ItemName like '%T10001%' and DT>=20100101 and DT<=20100131  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T16:59:10.266749 #7068]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and ItemName like '%T10001%' and DT>=20100101 and DT<=20100131  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T16:59:46.645830 #7128]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and ItemName like '%T10001%' and DT>=20100101 and DT<=20100131  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T16:59:49.599999 #7128]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and ItemName like '%T10001%' and DT>=20100101 and DT<=20100131  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T17:00:23.328928 #1208]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and ItemName like '%T10001%' and DT>=20100101 and DT<=20100131  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T17:01:03.975253 #5860]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and ItemName like '%T10001%' and DT>=20100101 and DT<=20100131  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T17:01:07.136434 #5860]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and ItemName like '%T10001%' and DT>=20100101 and DT<=20100131  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T17:01:19.597147 #5860]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and ItemName like '%T10001%' and DT>=20100101 and DT<=20100131  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T17:04:34.293283 #6688]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and ItemName like '%T10001%' and DT>=20100101 and DT<=20100131  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T17:04:46.352972 #6688]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and ItemName like '%T10001%' and DT>=20100101 and DT<=20100131  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T17:04:47.478037 #6688]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and ItemName like '%T10001%' and DT>=20100101 and DT<=20100131  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T17:04:55.906519 #6288]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and ItemName like '%T10001%' and DT>=20100101 and DT<=20100131  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
+I, [2014-02-21T17:06:05.348491 #6480]  INFO -- : select ItemType,KeyNumber,ItemName,Dollar from Blotters where 1=1 and ItemName like '%T10001%' and DT>=20100101 and DT<=20100131  order by ItemType,KeyNumber,ItemCode,ItemName,Dollar
